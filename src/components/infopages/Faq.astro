@@ -5,13 +5,9 @@
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-12">
       <div class="text-center lg:text-left">
         <div>
-          <p
-            class="text-3xl font-normal tracking-tight text-black font-display"
-          >
-            Frequently asked questions
-          </p>
-          <p class="text-base mt-4 text-zinc-500">
-            Answers to commonly asked questions about our platform
+          <img src="/FAQ.svg" alt="frequently asked question">
+          <p class="text-base mt-4 text-zinc-500 text-center">
+            ANSWERS TO COMMONLY ASKED QUESTIONS
           </p>
         </div>
       </div>
@@ -22,7 +18,7 @@
   this.activeAccordion = (this.activeAccordion == id) ? '' : id
   }
   }"
-        class="relative w-full mx-auto font-normal lg:col-span-2"
+        class="relative w-full mx-auto self-center font-normal lg:col-span-2"
       >
         <div
           x-data="{ id: $id('accordion') }"
@@ -122,9 +118,14 @@
             style="display: none;"
           >
             <div class="p-4 pt-2 text-zinc-500">
-              <span class="font-bold">Basic Cleaning</span>: This service helps with maintaining cleanliness and keeps your living space neat and tidy. This service is typically done on a weekly and bi-weekly basis and targets surface-level areas.
-
-              <span class="font-bold">Deep Cleaning</span>: A more detail cleaning service that helps target hard-to-reach areas and tackles deep seeded dirt and grime that can accumulate over time. This service goes beyond the surface level to ensure cleanliness and is typically done bi-annually or quarterly.
+              <div class="flex">
+              <img src="/Basic.svg" class="w-24"  alt="window cleaning">
+              <p><span class="font-bold">Basic Cleaning</span>: This service helps with maintaining cleanliness and keeps your living space neat and tidy. This service is typically done on a weekly and bi-weekly basis and targets surface-level areas.</p>
+              </div>
+              <div class="flex">
+              <img src="/Deep.svg" class="w-24" alt="vacuum cleaning">
+              <p><span class="font-bold">Deep Cleaning</span>: A more detail cleaning service that helps target hard-to-reach areas and tackles deep seeded dirt and grime that can accumulate over time. This service goes beyond the surface level to ensure cleanliness and is typically done bi-annually or quarterly.</p>
+              </div>
             </div>
           </div>
         </div>

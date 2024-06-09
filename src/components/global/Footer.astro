@@ -13,22 +13,18 @@ import { Image } from "astro:assets";
           <Image src="/Icon.svg"   
           height="100"
           width="100"
-          loading="eager"
+          loading="lazy"
           alt="Five Star Cleaning" />
-        <span class="font-bold font-display">5 Star Cleaning Servies</span>
       </a>
-      <div class="md:grid md:grid-cols-2 xl:grid-cols-4 md:gap-8 text-sm text-gray-400 lg:col-span-3">
-        <div>
-          <h3 class="text-lg text-black font-medium tracking-tight">
-            All pages
-          </h3>
-          <ul role="list" class="mt-4 space-y-1">
-            <li>
+      <div class="text-sm text-gray-400 lg:col-span-3">
+        <div class="flex align-text-bottom">
+          <ul role="list" class="ml-4 mt-8">
+            <li class="ml-4">
               <a href="/" class=" hover:text-black">
                 Home
               </a>
             </li>
-            <li>
+            <li class="ml-4">
               <a href="/faq" class=" hover:text-black">
                 FAQ
               </a>
