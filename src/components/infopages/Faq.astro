@@ -33,7 +33,7 @@
             @click="setActiveAccordion(id)"
             class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
           >
-            <span>How does end-to-end encryption work?</span>
+          <span>What are the hours of operation for 5 Stars Cleaning LLC ?</span>
             <svg
               class="w-5 h-5 duration-300 ease-out text-accent-500 -rotate-[45deg]"
               :class="{ '-rotate-[45deg]': activeAccordion==id }"
@@ -50,11 +50,7 @@
           </button>
           <div x-show="activeAccordion==id" x-collapse="">
             <div class="p-4 pt-2 text-zinc-500">
-              End-to-end encryption ensures that only the sender and recipient
-              can access the content of a message. The information is encrypted
-              on the sender's device and can only be decrypted by the intended
-              recipient, preventing any intermediaries, including the platform
-              provider, from accessing the data.
+              The hours of operation for 5 Star Cleaning are Monday to Friday, from 8am to 6pm. 
             </div>
           </div>
         </div>
@@ -68,7 +64,7 @@
             class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
           >
             <span
-              >Can I access my encrypted data if I forget my encryption key?</span
+              >What areas do 5 Star Cleaning serve ?</span
             >
             <svg
               class="w-5 h-5 duration-300 ease-out text-accent-500"
@@ -90,11 +86,7 @@
             style="display: none;"
           >
             <div class="p-4 pt-2 text-zinc-500">
-              No, forgetting or losing your encryption key means that your
-              encrypted data cannot be accessed. This is a crucial security
-              measure to ensure that even if someone gains unauthorized access
-              to your account, they won't be able to decrypt and view your
-              messages or files.
+              5 Star Cleaning LLC services all areas within the Twin Cities Metropolitan Area. This includes a wide range of locations within and around the cities of Minneapolis and St. Paul. Please contact us directly for more specific information about our service areas.
             </div>
           </div>
         </div>
@@ -108,8 +100,7 @@
             class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
           >
             <span
-              >Are there any limitations to the self-destructing messages
-              feature?</span
+              >What is the difference between a ‘Deep Cleaning’ and ‘Basic Cleaning’ services ?</span
             >
             <svg
               class="w-5 h-5 duration-300 ease-out text-accent-500"
@@ -131,12 +122,9 @@
             style="display: none;"
           >
             <div class="p-4 pt-2 text-zinc-500">
-              Self-destructing messages are designed to automatically delete
-              themselves after a specific period or upon being read by the
-              recipient. However, it's important to note that the feature only
-              removes the message from the devices involved in the conversation.
-              Recipients may take screenshots or use other means to capture the
-              content, which is beyond the platform's control.
+              <span class="font-bold">Basic Cleaning</span>: This service helps with maintaining cleanliness and keeps your living space neat and tidy. This service is typically done on a weekly and bi-weekly basis and targets surface-level areas.
+
+              <span class="font-bold">Deep Cleaning</span>: A more detail cleaning service that helps target hard-to-reach areas and tackles deep seeded dirt and grime that can accumulate over time. This service goes beyond the surface level to ensure cleanliness and is typically done bi-annually or quarterly.
             </div>
           </div>
         </div>
@@ -150,8 +138,7 @@
             class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
           >
             <span
-              >What happens if I enable two-factor authentication and lose my
-              device?</span
+              >How much does an cleaning estimate cost at 5 Stars Cleaning LLC ?</span
             >
             <svg
               class="w-5 h-5 duration-300 ease-out text-accent-500"
@@ -173,12 +160,7 @@
             style="display: none;"
           >
             <div class="p-4 pt-2 text-zinc-500">
-              Losing your device doesn't automatically compromise your account's
-              security. It's recommended to contact our support team as soon as
-              possible to disable the two-factor authentication on your lost
-              device and set up the authentication on your new device. This
-              process will help protect your account from unauthorized access
-              while ensuring you can regain access to it.
+              Nothing! There are no costs for an quote on an estimate for any of our services. Schedule your free estimate by contacting us via email ( five5.starss.cleaning@gmail.com) or give us call at  +1 (651) 506 9418.  
             </div>
           </div>
         </div>
@@ -192,7 +174,7 @@
             class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
           >
             <span
-              >Is my personal information shared or sold to third parties?</span
+              >How long does 5 Star Cleaning LLC take to respond to a cleaning service inquiry ? </span
             >
             <svg
               class="w-5 h-5 duration-300 ease-out text-accent-500"
@@ -214,129 +196,10 @@
             style="display: none;"
           >
             <div class="p-4 pt-2 text-zinc-500">
-              No, we strictly adhere to a privacy-centric approach. Your
-              personal information is never shared, sold, or monetized. We
-              prioritize your privacy and ensure that your data remains
-              confidential and only accessible to you.
+              5-Star Cleaning LLC is committed to providing excellent service. You can expect a response within 1-2 business days for any cleaning service inquiries. 
             </div>
           </div>
         </div>
-        <div
-          x-data="{ id: $id('accordion') }"
-          :class="{ 'text-black': activeAccordion==id, 'text-zinc-600 hover:text-accent-500': activeAccordion!=id }"
-          class="cursor-pointer group text-zinc-600 hover:text-accent-500"
-        >
-          <button
-            @click="setActiveAccordion(id)"
-            class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
-          >
-            <span>Can I use this platform on multiple devices?</span>
-            <svg
-              class="w-5 h-5 duration-300 ease-out text-accent-500"
-              :class="{ '-rotate-[45deg]': activeAccordion==id }"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              ><path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 6v12m6-6H6"></path></svg
-            >
-          </button>
-          <div
-            x-show="activeAccordion==id"
-            x-collapse=""
-            style="display: none;"
-          >
-            <div class="p-4 pt-2 text-zinc-500">
-              Yes, you can access our platform on multiple devices. Your
-              encrypted data remains synced across all devices, allowing you to
-              seamlessly communicate and access your files and messages from
-              anywhere.
-            </div>
           </div>
         </div>
-        <div
-          x-data="{ id: $id('accordion') }"
-          :class="{ 'text-black': activeAccordion==id, 'text-zinc-600 hover:text-accent-500': activeAccordion!=id }"
-          class="cursor-pointer group text-zinc-600 hover:text-accent-500"
-        >
-          <button
-            @click="setActiveAccordion(id)"
-            class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
-          >
-            <span
-              >Are there any storage limitations for files and documents?</span
-            >
-            <svg
-              class="w-5 h-5 duration-300 ease-out text-accent-500"
-              :class="{ '-rotate-[45deg]': activeAccordion==id }"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              ><path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 6v12m6-6H6"></path></svg
-            >
-          </button>
-          <div
-            x-show="activeAccordion==id"
-            x-collapse=""
-            style="display: none;"
-          >
-            <div class="p-4 pt-2 text-zinc-500">
-              Our platform provides ample storage space for your files and
-              documents. However, there may be storage limitations based on the
-              pricing plan you choose. We offer flexible plans to suit your
-              needs and provide options to upgrade if you require additional
-              storage capacity.
-            </div>
-          </div>
-        </div>
-        <div
-          x-data="{ id: $id('accordion') }"
-          :class="{ 'text-black': activeAccordion==id, 'text-zinc-600 hover:text-accent-500': activeAccordion!=id }"
-          class="cursor-pointer group text-zinc-600 hover:text-accent-500"
-        >
-          <button
-            @click="setActiveAccordion(id)"
-            class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
-          >
-            <span>Is it possible to export my data from the platform?</span>
-            <svg
-              class="w-5 h-5 duration-300 ease-out text-accent-500"
-              :class="{ '-rotate-[45deg]': activeAccordion==id }"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              ><path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 6v12m6-6H6"></path></svg
-            >
-          </button>
-          <div
-            x-show="activeAccordion==id"
-            x-collapse=""
-            style="display: none;"
-          >
-            <div class="p-4 pt-2 text-zinc-500">
-              Yes, you can export your data from the platform. We offer export
-              features that allow you to download your messages, files, and
-              documents, ensuring you have a local copy for backup or migration
-              purposes. It provides you with greater control and flexibility
-              over your data.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
