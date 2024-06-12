@@ -29,7 +29,7 @@
             @click="setActiveAccordion(id)"
             class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
           >
-          <span>What are the hours of operation for 5 Stars Cleaning LLC ?</span>
+          <span class="w-full">What are the hours of operation for 5 Stars Cleaning LLC ?</span>
             <svg
               class="w-5 h-5 duration-300 ease-out text-accent-500 -rotate-[45deg]"
               :class="{ '-rotate-[45deg]': activeAccordion==id }"
@@ -41,8 +41,8 @@
               ><path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                d="M12 6v12m6-6H6"></path></svg
-            >
+                d="M12 6v12m6-6H6"></path>
+           </svg>
           </button>
           <div x-show="activeAccordion==id" x-collapse="">
             <div class="p-4 pt-2 text-zinc-500">
@@ -59,7 +59,7 @@
             @click="setActiveAccordion(id)"
             class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
           >
-            <span
+            <span class="w-full"
               >What areas do 5 Star Cleaning serve ?</span
             >
             <svg
@@ -95,7 +95,7 @@
             @click="setActiveAccordion(id)"
             class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
           >
-            <span
+            <span class="w-full"
               >What is the difference between a ‘Deep Cleaning’ and ‘Basic Cleaning’ services ?</span
             >
             <svg
@@ -138,7 +138,7 @@
             @click="setActiveAccordion(id)"
             class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
           >
-            <span
+            <span class="w-full"
               >How much does an cleaning estimate cost at 5 Stars Cleaning LLC ?</span
             >
             <svg
@@ -174,7 +174,7 @@
             @click="setActiveAccordion(id)"
             class="flex items-center justify-between w-full p-4 pb-1 text-left font-medium select-none"
           >
-            <span
+            <span class="w-full"
               >How long does 5 Star Cleaning LLC take to respond to a cleaning service inquiry ? </span
             >
             <svg
